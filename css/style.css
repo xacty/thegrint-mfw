@@ -146,6 +146,9 @@ img {
 	-ms-flex-align: center;
 	align-items: center;
 }
+section.main-banner, .sixth-section {
+	overflow: hidden;
+}
 .bg-banner-img {
 	position: absolute;
 	left: 0;
@@ -763,6 +766,12 @@ footer .bot :is(p, a) {
 	.fourth-section, .fifth-wrapper, .fourth-section, .fifth-wrapper {
 		padding-top: 5em;
 		padding-bottom: 5em;
+	}
+
+}
+@media screen and (max-width: 375px) {
+	.buttons svg {
+		height: 40px;
 	}
 
 }

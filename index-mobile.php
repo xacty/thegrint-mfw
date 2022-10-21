@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/carousel.css">
   <link rel="stylesheet" href="css/slider.css">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
   <link rel="stylesheet" href="css/m-style.css">
 
 </head>
@@ -25,7 +24,7 @@
       <div class="menu" id="myTopnav">
         <ul>
           <li><a href="https://sandbox.thegrint.com/passthru">Log in</a></li>
-          <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN<span class="hidden"> FOR FREE</span></a></li>
+          <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN <span class="hidden">FOR FREE</span></a></li>
         </ul>
       </div>
     </div>
@@ -40,13 +39,17 @@
         <div class="left">
           <h1><b>The Best Golf App</b></h1>
           <h2>Golf Scoretracker, Handicaps, Golf GPS, Advanced Stats and more</h2>
+          <div class="buttons o-desktop">
+           <?php include "sections/buttons.html" ?>
+         </div>
+         <p class="desk-s" class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
         </div>
         <div class="right">
           <img src="assets/devices2.webp" alt="">
-          <div class="buttons">
+          <div class="buttons only-tablet">
            <?php include "sections/buttons.html" ?>
          </div>
-         <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
+         <p class="only-tablet" class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
        </div>
      </div>
    </div>
@@ -55,7 +58,7 @@
 
  <section class="first-section">
   <div class="container">
-    <h1>Track as you play with our <b class="green">Golf Scoretracker!</b></h1>
+    <h1 class="only-mobile">Track as you play with our <b class="green">Golf Scoretracker!</b></h1>
     <div class="wrapper screens-wrapper">
       <div class="left">
         <div class="img-wrapper">
@@ -134,7 +137,7 @@
 
 <section class="fifth-section">
   <div class="container">
-    <div class="wrapper screens-wrapper">
+    <div class="wrapper screens-wrapper reverse-desktop">
 
       <div class="left">
         <div class="img-wrapper">
@@ -176,7 +179,16 @@
   <div class="container">
     <div class="wrapper">
       <div class="left">
-        <div id="slider">
+        <div class="carousel-phones">
+          <div class="phones-wrapper">
+            <img src="assets/iphone_border.webp" alt="">
+            <img class="loop active" src="assets/carousel1.png" alt="">
+            <img class="loop" src="assets/carousel2.png" alt="">
+            <img class="loop" src="assets/carousel3.png" alt="">
+            <img class="loop" src="assets/carousel4.png" alt="">
+          </div>
+        </div>
+        <div style="display: none;" id="slider">
           <ul id="slideWrap"> 
             <li><div class="image-slider-container"><img src="assets/image-3.webp" alt=""></div></li>
             <li><div class="image-slider-container"><img src="assets/image-4.webp" alt=""></div></li>
@@ -225,7 +237,7 @@
 
 <section class="seventh-section">
   <div class="container">
-    <div class="wrapper screens-wrapper">
+    <div class="wrapper screens-wrapper reverse-desktop">
 
       <div class="left">
         <div class="img-wrapper">

@@ -62,3 +62,15 @@
 #slider #next {
 	right: 10%;
 }
+@media screen and
+#slider #prev {
+	left: 10%;
+}
+@media screen and (max-width: 375px) {
+	#slider #prev {
+		left: 14%;
+	}
+	#slider #next {
+		right: 14%;
+	}
+}
