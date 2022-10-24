@@ -58,7 +58,7 @@
 
  <section class="first-section">
   <div class="container">
-    <h1 class="only-mobile">Track as you play with our <b class="green">Golf Scoretracker!</b></h1>
+    <h1 class="only-mobile">Easy to use <b class="green">Golf Score Tracker!</b></h1>
     <div class="wrapper screens-wrapper">
       <div class="left">
         <div class="img-wrapper">
@@ -68,8 +68,8 @@
       </div>
       <div class="right">        
         <div class="first-content">
-          <h1 class="desktop">Track as you play with our <b class="green">Golf Scoretracker!</b></h1>
-          <p>The advanced score tracker allows you to add metrics for each hole, giving you an easy solution to add scores and feed info into your personalized statistics feature</p>
+          <h1 class="desktop">Easy to use <b class="green">Golf Score Tracker!</b></h1>
+          <p>Our Score Tracker allows you to keep basic stats or PRO-like advanced statistics. Your Scores are then used to calculate your Handicap and performance stats.</p>
         </div>
       </div>
     </div>
