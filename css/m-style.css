@@ -1,11 +1,13 @@
 :root {
-	--white-bg: #f6f6f6;
+	--white-bg: #F6F6F6;
 	--black-bg: #1d1d1d;
-	--white-text: #fff;
-	--black-text: #1d1d1d;
-	--blue: #00273D;
-	--green: #B5D44F;
-	--light-blue: #263D51;
+	--white-text: #F6F6F6;
+	--black-text: #383838;
+	--content-text: #404952;
+	--main-blue: #263D51;
+	--bright-green: #A7CF3F;
+	--light-green: #BFD27B;
+	--gray-blue: #3D5D70;
 	--text: 'Helvetica Neue', sans-serif;
 	--primary-title: 29px;
 	--transition: .6s;
@@ -28,11 +30,11 @@ html {
 }
 h1 {
 	font-size: var(--primary-title);
-	color: var(--blue);
+	color: var(--black-text);
 	line-height: 1.2em;
 }
 h2 {
-	color: var(--blue);
+	color: var(--black-bg);
 	text-align: center;
 	line-height: 1.2em;
 	font-size: 18px;
@@ -40,10 +42,11 @@ h2 {
 p {
 	text-align: center;
 }
-p, ul, ul li, a, .dots {
+p, ul, ul li, a {
 	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 400;
+	color: var(--content-text);
 }
 ul {
 	list-style: none;
@@ -61,7 +64,7 @@ ul {
 	text-align: left;
 }
 .icon-list-icon i {
-	color: var(--green);
+	color: var(--bright-green);
 }
 .icon-list-text {
 	margin-left: 10px;
@@ -102,7 +105,7 @@ section {
 	width: 100%;
 }
 section:nth-child(n+3) {
-	margin-bottom: 5em;
+	padding: 5em 0;
 }
 
 section:nth-child(n+3) p {	
@@ -151,7 +154,7 @@ img {
 	transform: translateY(-3px);
 }
 .green {
-	color: var(--green);
+	color: var(--bright-green);
 }
 
 .desktop, .hidden, .o-desktop {
@@ -219,13 +222,37 @@ section.main-banner, .sixth-section {
 	width: 150px;
 }
 /* first section */
+section.bg {
+	background-image: url(../assets/strip.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.bg-2 {
+	background-image: url(../assets/strip2.svg);
+	background-size: cover;	
+    background-repeat: no-repeat;
+}
+section.bg-inverted {
+	background-image: url(../assets/strip3.svg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+section.bg-inverted-2 {
+	background-image: url(../assets/strip3.svg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.grey-bg {
+	background-color: #F3F3F3;
+}
 .first-content {
 	margin-top: 5em;
 }
 /*awards*/
 section#awards {
-	margin-top: 5em;
-	background: var(--blue);
+	background: var(--main-blue);
 }
 .awards {
 	display: -webkit-box;
@@ -253,6 +280,7 @@ section#awards {
 }
 .a-wrapper p {
 	text-align: center;
+	color: var(--white-text);
 }
 .a-img-box {
 	display: -webkit-box;
@@ -327,7 +355,7 @@ section#awards {
 }
 /* ninth section */
 section.ninth-section {
-	margin-bottom: 8em;
+	padding-bottom: 15em;
 } 
 .ninth-section a.register-btn {
 	position: relative;
@@ -336,20 +364,20 @@ section.ninth-section {
 	font-size: 20px;
 	font-weight: 500;
 	text-decoration: underline;
-	fill: var( --green );
-	color: var( --green );
+	fill: var( --bright-green );
+	color: var( --bright-green );
 	-webkit-transition: var(--transition);
 	-o-transition: var(--transition);
 	transition: var(--transition);
 }
 .ninth-container a.register-btn:hover {
-	fill: var( --blue );
-	color: var( --blue );
+	fill: var( --main-blue );
+	color: var( --main-blue );
 }
 /* footer */
 footer {
 	position: relative;
-	background: var(--blue);
+	background: var(--main-blue);
 }
 footer .footer-container {
 	padding-top: 5em;
@@ -417,7 +445,7 @@ footer .bot-box {
 	min-width: 250px;
 }
 footer .bot a {
-	color: var(--blue);
+	color: var(--main-blue);
 	text-decoration: none;
 	-webkit-transition: var(--transition);
 	-o-transition: var(--transition);
@@ -428,7 +456,7 @@ footer .bot a, footer .bot p {
 	color: var(--white-text);
 }
 footer .bot a:hover, footer .social-media a:hover {
-	color: var(--green);
+	color: var(--bright-green);
 }
 footer .bot h4 {
 	font-size: 18px;
@@ -496,6 +524,9 @@ footer .bot :is(p, a) {
 @media screen and (min-width: 1024px) {
 	p, ul, ul li, a, .dots {
 		font-size: 18px;
+	}
+	h1 {
+		font-size: 33px;
 	}
 	section .wrapper {
 		flex-direction: row;

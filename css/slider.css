@@ -53,7 +53,7 @@
 	cursor: pointer;
 }
 #slider #prev:hover, #slider #next:hover {
-	background-color: var(--green);
+	background-color: var(--bright-green);
 	text-shadow: 0;
 }
 #slider #prev {

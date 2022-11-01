@@ -55,23 +55,23 @@ header{
     font-weight: bold;
     text-transform: uppercase;
 	border-radius: 100px;
-	color: var(--blue);
+	color: var(--main-blue);
 	padding: 18px 32px;
 	transition: var(--transition);
 }
 .menu a:hover {	
-	color: rgb(0 39 61 / 80%);
+	color: var(--bright-green);
 }
 .effect-header .menu a:hover {
-	color: rgb(255 255 255 / 70%);
+	color: var(--bright-green);
 }
 .menu a.join-btn {
-	color: var(--blue);
-	background-color: var(--green);
+	color: var(--main-blue);
+	background-color: var(--bright-green);
 }
 .menu a.join-btn:hover {
 	color: var(--white-text);
-	background-color: var(--blue);
+	background-color: var(--main-blue);
 }
 
 .icon{

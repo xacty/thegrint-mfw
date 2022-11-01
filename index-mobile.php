@@ -56,7 +56,7 @@
  </section>
 
 
- <section class="first-section">
+ <section class="first-section bg">
   <div class="container">
     <h1 class="only-mobile">Easy to use <b class="green">Golf Score Tracker!</b></h1>
     <div class="wrapper screens-wrapper">
@@ -135,7 +135,7 @@
   </div>
 </section>
 
-<section class="fifth-section">
+<section class="fifth-section bg-2">
   <div class="container">
     <div class="wrapper screens-wrapper reverse-desktop">
 
@@ -175,7 +175,7 @@
   </div>
 </section>
 
-<section class="sixth-section">
+<section class="sixth-section bg-inverted">
   <div class="container">
     <div class="wrapper">
       <div class="left">
@@ -278,7 +278,7 @@
   </div>
 </section>
 
-<section class="eighth-section">
+<section class="eighth-section bg">
   <div class="container">
     <div class="wrapper">
       <div class="left">
@@ -317,7 +317,7 @@
   </div>
 </section>
 
-<section class="ninth-section">
+<section class="ninth-section grey-bg">
   <div class="container ninth-container">
     <h1>Try our TheGrint <b style="color:#b5d44f;">Web App</b></h1>
     <p>Want to analyze your golf game back at home or at the office? Our Web App offers all the in-depth stats in a larger screen.</p>
