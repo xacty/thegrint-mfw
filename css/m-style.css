@@ -42,11 +42,15 @@ h2 {
 p {
 	text-align: center;
 }
-p, ul, ul li, a {
+p, ul, ul li, a , li h2 {
 	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 400;
 	color: var(--content-text);
+}
+li h2 {
+	text-align: left;
+	margin: 0;
 }
 ul {
 	list-style: none;
@@ -209,6 +213,7 @@ section.main-banner, .sixth-section {
 }
 .screens-wrapper .img-wrapper img {
 	max-width: 50%;
+	width: 180px;
 }
 
 .fourth-wrapper .left img:nth-child(odd),.screens-wrapper .img-wrapper img:nth-child(odd) {
@@ -222,7 +227,8 @@ section.main-banner, .sixth-section {
 	width: 150px;
 }
 /* first section */
-section.bg {
+
+/*section.bg {
 	background-image: url(../assets/strip.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,8 +249,8 @@ section.bg-inverted-2 {
     background-size: cover;    
     background-repeat: no-repeat;
     background-position: bottom;
-}
-.grey-bg {
+}*/
+.grey-bg, section:nth-child(2n-3) {
 	background-color: #F3F3F3;
 }
 .first-content {
@@ -491,7 +497,22 @@ footer .bot :is(p, a) {
 	.banner-content .right img, section.ninth-section img {
 		max-width: 75%;
 	}
-	section:nth-child(n+3) .wrapper {
+	.eighth-section .left {
+		display: inherit;
+	}
+	.eighth-section .left img {
+		max-width: 185px;
+		margin: 0 auto;
+	}
+	section.ninth-section {
+		text-align: center;
+	}
+	section.ninth-section p {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 758px) {
+		section:nth-child(n+3) .wrapper {
 		flex-direction: row;
 	}
 	section:nth-child(n+3) .wrapper.reverse-desktop {
@@ -506,19 +527,6 @@ footer .bot :is(p, a) {
 	section:nth-child(n+3) .wrapper.reverse-desktop .right {
 		padding-left: 0;
 		padding-right: 3%;
-	}
-	.eighth-section .left {
-		display: inherit;
-	}
-	.eighth-section .left img {
-		max-width: 185px;
-		margin: 0 auto;
-	}
-	section.ninth-section {
-		text-align: center;
-	}
-	section.ninth-section p {
-		text-align: center;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -560,6 +568,9 @@ footer .bot :is(p, a) {
 	}
 	.phones-wrapper, .eighth-section .left img {
 		max-width: 248px;
+	}
+	.screens-wrapper .img-wrapper img {
+		width: 248px;
 	}
 
 	section.ninth-section p {

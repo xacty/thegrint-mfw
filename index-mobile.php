@@ -38,7 +38,7 @@
       <div class="wrapper">
         <div class="left">
           <h1><b>The Best Golf App</b></h1>
-          <h2>Golf Scoretracker, Handicaps, Golf GPS, Advanced Stats and more</h2>
+          <h2>Golf Score Tracker, USGA Handicaps, Golf GPS, Stats, Green Maps and more</h2>
           <div class="buttons o-desktop">
            <?php include "sections/buttons.html" ?>
          </div>
@@ -69,7 +69,7 @@
       <div class="right">        
         <div class="first-content">
           <h1 class="desktop">Easy to use <b class="green">Golf Score Tracker!</b></h1>
-          <p>Our Score Tracker allows you to keep basic stats or PRO-like advanced statistics. Your Scores are then used to calculate your Handicap and performance stats.</p>
+          <p>Our Score Tracker allows you to keep basic stats or Pro-like advanced statistics. Your Scores are then used to calculate your Handicap and performance stats.</p>
         </div>
       </div>
     </div>
@@ -109,25 +109,13 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Shot tracking and distance calculation on nearly every course worldwide</span>
+            <h2 class="icon-list-text">Shot tracking and distance calculation on nearly every golf course worldwide.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Know the distance of the fairway and get on to the green</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Tee off with confidence, knowing the distance to the green</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Connect your smartwatch with TheGrint to know your distances</span>
+            <h2 class="icon-list-text">Connect your Apple Watch or Android Watch easily with <b>TheGrint</b> to know your distances.</h2>
           </li>
         </ul>
       </div>
@@ -138,6 +126,26 @@
 <section class="fifth-section bg-2">
   <div class="container">
     <div class="wrapper screens-wrapper reverse-desktop">
+
+      <div class="left">
+        <div class="img-wrapper">
+          <img src="assets/handicap_link-2.webp" alt="">
+          <img src="assets/handicap_link-1.webp" alt="">
+        </div>
+      </div>
+
+      <div class="right">
+        <h1 class="align-left">Link Real Handicaps <br><b class="green">(e.g. GHIN)</b></h1>
+        <p><b>TheGrint</b> will sync your scores with the USGA and World Handicap System database.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="fifth-section bg-2">
+  <div class="container">
+    <div class="wrapper screens-wrapper">
 
       <div class="left">
         <div class="img-wrapper">
@@ -153,13 +161,7 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Topographic slope shown in % with precise green slopes.</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Use it to improve your approach shots and putt reading.</span>
+            <span class="icon-list-text">Our topographic maps show the precise green slopes for putting and approach shots.</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
@@ -168,7 +170,6 @@
             <span class="icon-list-text">Over 13k green maps available and adding more every month.</span>
           </li>
         </ul>
-        <p>Our precise Green Maps allow you to determine the best location to aim for your approach shots, and help you be more confident with your putt reading. The Green Maps are only available to PRO+ members but you can give it a test run for free.</p>
       </div>
 
     </div>
@@ -177,7 +178,7 @@
 
 <section class="sixth-section bg-inverted">
   <div class="container">
-    <div class="wrapper">
+    <div class="wrapper reverse-desktop">
       <div class="left">
         <div class="carousel-phones">
           <div class="phones-wrapper">
@@ -209,25 +210,19 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Know your Strengths and Weaknessess with our benchmark dynamic targets by handicap</span>
+            <h2 class="icon-list-text">Know your Strengths and Weaknesses with our benchmark dynamic targets by handicap.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Understand your game through our in-depth Performance Stats.</span>
+            <h2 class="icon-list-text">Understand your golf game through our in-depth Performance Stats feature.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Track records and milestones in your own Trophy Room.</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Save all your rounds in one place.</span>
+            <h2 class="icon-list-text">Track records and milestones in your own golf Trophy Room.</h2>
           </li>
         </ul>
       </div>
@@ -237,7 +232,7 @@
 
 <section class="seventh-section">
   <div class="container">
-    <div class="wrapper screens-wrapper reverse-desktop">
+    <div class="wrapper screens-wrapper">
 
       <div class="left">
         <div class="img-wrapper">
@@ -246,31 +241,31 @@
         </div>        
       </div>
       <div class="right">
-        <h1 class="align-left"><b>Live Scores &</b><br> <b class="green">Leaderboard Feature</b></h1>
+        <h1 class="align-left"><b>Live Scores &</b><br> <b class="green">Leaderboard</b></h1>
         <ul class="icon-list-items">
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Get instant Notification of what your friends are doing live on the golf course</span>
+            <h2 class="icon-list-text">Get instant Notification of what your friends are doing live on the golf course.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Compete with other foursomes in real-time</span>
+            <h2 class="icon-list-text">Compete with other Grinters in real-time and check their scores using our live leaderboards.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Keep score within your group on multiple phones</span>
+            <h2 class="icon-list-text">Manage your team events with our Live Ryder Cup Format.</h2>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Live Ryder Cup Format competitions</span>
+            <h2 class="icon-list-text">Keep score within your group on multiple phones using our linked scorecard feature.</h2>
           </li>
         </ul>      
       </div>
@@ -280,36 +275,30 @@
 
 <section class="eighth-section bg">
   <div class="container">
-    <div class="wrapper">
+    <div class="wrapper reverse-desktop">
       <div class="left">
         <img src="assets/golf_module.webp" alt="">
       </div>
       <div class="right">
-        <h1>Connect with your golf friends <b class="green">or meet new ones</b></h1>
+        <h1>Connect with your golf friends <b class="green">like never before</b></h1>
         <ul class="icon-list-items">
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Track scores with friends, see their photos and more</span>
+            <span class="icon-list-text">Track scores with friends, see their photos, comments and more.</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Our Foursomes tool lets you organize your next tee time with your foursome</span>
+            <span class="icon-list-text">See how you rank among your friends and the rest of <b>TheGrint</b> community.</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">We organize over 200 TheGrint Tour events per year. Go compete and meet new Grinters</span>
+            <span class="icon-list-text">We organize over 200 <b>TheGrint</b> Tour events per year. Go compete and meet new Grinters.</span>
           </li>
         </ul>
       </div>
@@ -320,7 +309,7 @@
 <section class="ninth-section grey-bg">
   <div class="container ninth-container">
     <h1>Try our TheGrint <b style="color:#b5d44f;">Web App</b></h1>
-    <p>Want to analyze your golf game back at home or at the office? Our Web App offers all the in-depth stats in a larger screen.</p>
+    <p>Want to analyze your golf game back at home or at the office? Our Web App offers all the in-depth stats on a larger screen.</p>
     <div><img src="assets/thegrint_desktop2.1.webp" alt=""></div>
     <h1>Ready to have the  <br><b>best golf experience ever?</b></h1>
     <div class="buttons">
