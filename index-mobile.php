@@ -129,8 +129,8 @@
 
       <div class="left">
         <div class="img-wrapper">
-          <img src="assets/handicap_link-2.webp" alt="">
-          <img src="assets/handicap_link-1.webp" alt="">
+          <img id="lil-card" src="assets/handicap_card_thegrint.webp" alt="">
+          <img id="lil-card-sibling" src="assets/handicap_link-1.webp" alt="">
         </div>
       </div>
 
