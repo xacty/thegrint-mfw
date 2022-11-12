@@ -136,7 +136,20 @@
 
       <div class="right">
         <h1 class="align-left">Link Real Handicaps <br><b class="green">(e.g. GHIN)</b></h1>
-        <p><b>TheGrint</b> will sync your scores with the USGA and World Handicap System database.</p>
+        <ul class="icon-list-items">
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">You can link your current Handicap for free or get a New one from TheGrint.</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">You scores will be automatically synced with the USGA servers for Handicap purposes.</span>
+          </li>
+        </ul>
       </div>
 
     </div>
